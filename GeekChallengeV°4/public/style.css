@@ -1,0 +1,255 @@
+* {
+  font-family: "Signika Negative", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Gayathri", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* land */
+.land {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1525935944571-4e99237764c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content h1,
+.content p,
+.content a {
+  color: white;
+  padding: 5px 0;
+}
+
+.content a {
+  margin: 20px 0;
+  padding: 1em 2em;
+  font-size: 18px;
+  font-weight: 100;
+  border-radius: 2em;
+  border: none;
+  background-color: #2a6592;
+  width: 200px;
+}
+
+.content a:hover {
+  background-color: #8ec3eb;
+}
+
+.subscribe-card {
+  width: 300px;
+  height: 400px;
+  background-color: rgba(15, 36, 53, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(46, 101, 146, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(110px);
+}
+
+.subscribe-card h2 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.subscribe-card label {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.subscribe-card input[type="email"] {
+  font-weight: 100;
+  border-radius: 2em;
+  border: 1px solid #2a6592;
+  height: 50px;
+  width: 100%;
+}
+
+.subscribe-card button[type="submit"] {
+  margin: 20px 0;
+  padding: 0.5em;
+  font-size: 18px;
+  font-weight: 100;
+  border-radius: 2em;
+  border: none;
+  background-color: #2a6592;
+  width: 100px;
+  color: white;
+}
+
+/* siper */
+.swiper {
+  width: 800px;
+  height: 350px;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.swiper-slide img {
+  border-radius: 2em;
+  width: 600px;
+  height: 300px;
+  box-shadow: #8ec3eb 2px 5px 6px 0;
+}
+
+/* plan */
+.plan {
+  margin-top: 150px;
+  color: white;
+}
+
+.tabs .btn {
+  color: #2a6592;
+}
+
+.tabs .btn:hover {
+  color: #8ec3eb;
+  text-decoration: none;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #2a6592;
+  border-radius: 50%;
+}
+
+.line {
+  display: block;
+  width: 1px;
+  background-color: #2a6592;
+  height: 100%;
+  transform: translate(6px, -7px);
+}
+
+.ql-activ {
+  color: #8ec3eb !important;
+}
+
+@media (max-width: 460px) {
+  .data h3,
+  .data p {
+    font-size: 0.75em;
+  }
+}
+
+/* contact */
+.contact {
+  background-color: #d2d2d2;
+}
+
+.contact .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.contact form {
+  background-color: white;
+  padding: 50px;
+  margin-top: 0;
+  flex-grow: 1;
+  margin-right: 20px;
+  height: min-content;
+}
+
+.infos {
+  background-color: white;
+  padding: 20px;
+  height: min-content;
+  width: auto;
+}
+
+.contact form .form-group input,
+.contact form .form-group textarea {
+  font-weight: 100;
+  border-radius: 2em;
+  border: 1px solid #2a6592;
+}
+
+.contact form .btn {
+  margin: 20px 0;
+  padding: 1em 2em;
+  font-size: 18px;
+  font-weight: 100;
+  border-radius: 2em;
+  border: none;
+  background-color: #2a6592;
+}
+
+.contact form .btn:hover {
+  background-color: #8ec3eb;
+}
+
+@media screen and (max-width: 1200px) {
+  .infos {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+/* newspaper */
+.newspaper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-block {
+  background-color: #f8f8f8;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}

@@ -1,0 +1,71 @@
+<% layout('layout/boilerplate') %>
+<section class="contact">
+  <h1 class="display-4 text-center pt-5 mb-0">Contact Us</h1>
+  <div class="colorful-line mb-3 my-0 mx-auto"></div>
+  <div class="container-sm mt-5 wrapper">
+    <form class="">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label class="lead" for="name">First Name</label>
+            <input
+              type="text"
+              class="form-control name"
+              id="name"
+              aria-describedby="nameHelp"
+            />
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label class="lead" for="lname">Last Name</label>
+            <input
+              type="text"
+              class="form-control lname"
+              id="lname"
+              aria-describedby="lnameHelp"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="lead" for="exampleInputEmail1">Email address</label>
+        <input
+          type="email"
+          class="form-control email"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+        <small id="emailHelp" class="form-text text-muted"
+          >We'll never share your email with anyone else.</small
+        >
+      </div>
+      <div class="form-group">
+        <label class="lead" for="mss">Message</label>
+        <textarea
+          placeholder="What's on your mind ?"
+          class="form-control"
+          name=""
+          id="mss"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="infos">
+      <div class="py-3">
+        <span class="d-block lead">Adress</span>
+        <span class="text-muted">Sfax, route mahdia, km4</span>
+      </div>
+      <div class="py-3">
+        <span class="d-block lead">Phone</span>
+        <span class="text-info">+216 44674320</span>
+      </div>
+      <div class="py-3">
+        <span class="d-block lead">Email</span>
+        <span class="text-info">contact@alfa.tn</span>
+      </div>
+    </div>
+  </div>
+</section>

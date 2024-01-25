@@ -1,0 +1,448 @@
+<% layout('layout/boilerplate') %>
+<section class="land">
+  <div class="container-sm">
+    <div class="con">
+      <div class="content col-6 col-sm-6">
+        <h1 class="lead display-4">How are we</h1>
+        <p>
+          At Alfa, we are dedicated to leveraging the power of AI to create
+          sustainable solutions for waste management. Our team of experts has
+          developed a cutting-edge platform that optimizes waste collection,
+          sorting, and disposal in the city of Sfax. By harnessing the latest
+          advances in machine learning and data analysis, we provide an
+          efficient and cost-effective solution that minimizes environmental
+          impact and maximizes resource utilization. At Alfa, we are committed
+          to creating a cleaner, healthier, and more sustainable future for our
+          community.
+        </p>
+        <a href="" class="btn btn-success">Contact</a>
+      </div>
+
+      <div class="subscribe-card col-6 col-sm-6">
+        <h2 class="">Subscribe Now!</h2>
+        <form action="/sub" method="post">
+          <label>Enter your email address:</label>
+          <input type="email" name="email" />
+
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container-sm mt-5">
+  <h1 class="text-center dispaly-3">Take a look at the problem</h1>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img
+          src="https://images.unsplash.com/photo-1495556650867-99590cea3657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdhc3RlJTIwbWFuYWdlbWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+      <div class="swiper-slide">
+        <img
+          src="https://images.unsplash.com/photo-1582408921715-18e7806365c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        />
+      </div>
+      <div class="swiper-slide">
+        <img
+          src="https://images.unsplash.com/flagged/photo-1572213426852-0e4ed8f41ff6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80"
+        />
+      </div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <p class="lead mt-3">
+    Sfax, a beautiful city located in the east of Tunisia, is facing a growing
+    waste problem. It's a sad reality that can be seen in many streets and
+    neighborhoods of the city, where trash cans overflow with garbage, and
+    litter is scattered all around the sidewalks. The lack of efficient waste
+    management practices and infrastructure is the main cause of this problem.
+    The streets of Sfax suffer from a chronic lack of waste bins, and those that
+    exist are often small and inadequate. This leads to an overflow of waste,
+    which is not only unsightly but also a health hazard for the citizens.
+    People often discard their trash on the side of the roads, in empty lots or
+    abandoned buildings, contributing to the accumulation of waste in the
+    streets. Another issue is the inefficient waste collection system, which
+    often leaves garbage uncollected for days, contributing to the unsanitary
+    conditions in the streets. The government needs to invest in more efficient
+    waste collection methods and increase the frequency of waste collection to
+    keep the streets clean and healthy.
+  </p>
+</div>
+
+<div class="paln">
+  <div class="container-sm mt-5">
+    <h1 class="text-center dispaly-3">What's our plan</h1>
+    <div class="mt-5">
+      <div class="data">
+        <div class="text-end">
+          <h3 class="">
+            Distributing containers equipped with sensors and internet cards in
+            different parts or zones of the city, each part separately (one in
+            each zone)
+          </h3>
+          <p>FIRST STEP</p>
+        </div>
+        <div>
+          <span class="rounder"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="data">
+        <div class=""></div>
+        <div>
+          <span class="rounder"></span>
+          <span class="line"></span>
+        </div>
+        <div class="">
+          <h3 class="">
+            Connecting the containers to a privet server to collect data about
+            the days of filling of each container in a certain period, taking
+            into account the frequency of filling to generate our data set. And
+            most importently label the caracteristics of each zone.(population,
+            nbr of houses, commertial zone or not...)
+          </h3>
+          <p>SECOND STEP</p>
+        </div>
+      </div>
+      <div class="data">
+        <div class="text-end">
+          <h3 class="">
+            use machine learning algorithms to predict when the trash cans will
+            be full based on the previous data collected.
+          </h3>
+          <p>THERD STEP</p>
+        </div>
+        <div>
+          <span class="rounder"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="data">
+        <div class=""></div>
+        <div>
+          <span class="rounder"></span>
+          <span class="line"></span>
+        </div>
+        <div class="">
+          <h3 class="">
+            By utilizing artificial intelligence, we can extract precise
+            schedules for the collection of waste containers and targeted
+            destinations on specific days. This information can then be provided
+            to municipal officials to effectively arrange waste collection
+            visits, leading to improved waste management practices.
+          </h3>
+          <p>FINELLY</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container capteur mt-5">
+  <div class="row">
+    <img
+      src="https://images.unsplash.com/photo-1595692682118-774e5182f484?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      class="col-sm-6"
+    />
+    <p class="col-6 lead">
+      The 12 TND Capteur De Poids 50Kg is a cost-effective sensor that can be
+      used to monitor the weight of trash cans. By installing these sensors in
+      the cans, we can track the amount of waste generated in real-time and
+      optimize waste collection schedules. The cost of the project will depend
+      on the number of cans that need to be equipped with sensors, but using
+      these sensors can ultimately save money. Overall, investing in these
+      sensors can lead to more efficient waste management and a cleaner
+      environment.
+    </p>
+  </div>
+</div>
+
+<div class="container mt-5 dataset">
+  <h1 class="text-center dispaly-3">How we work</h1>
+  <li class="lead">
+    To collect data on waste management, we have installed sensors in trash cans
+    that can detect the level of waste in the bins as well as gather information
+    on the zone of the city where the can is located (population, nbr of houses,
+    commertial zone or not...). The sensors collect data on a regular basis and
+    send it to a central database. Using this data, we can train a
+    classification algorithm to predict the likelihood of a trash can being full
+    based on various factors such as population, commercial activity, and number
+    of houses in the area. This would involve inputting the can ID and the
+    relevant data about the zone it is in. The output of the algorithm would
+    represent the day of the week that the trash can is likely to be full, with
+    a number from 1 to 7 corresponding to the respective days of the week.
+  </li>
+  <h2 class="mt-5">Data Table Example</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Can ID</th>
+        <th>Population</th>
+        <th>Commercial</th>
+        <th># of Houses</th>
+        <th>Output</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2000</td>
+        <td>yes</td>
+        <td>100</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2000</td>
+        <td>yes</td>
+        <td>100</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1500</td>
+        <td>no</td>
+        <td>80</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3000</td>
+        <td>yes</td>
+        <td>120</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>1000</td>
+        <td>yes</td>
+        <td>50</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>1000</td>
+        <td>yes</td>
+        <td>50</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>2500</td>
+        <td>no</td>
+        <td>90</td>
+        <td>6</td>
+      </tr>
+    </tbody>
+  </table>
+  <li class="lead mt-5">
+    To train the AI model, we will use the collected dataset to create a labeled
+    data set that represents the number of times a can is filled for each day of
+    the week, ranging from 1 to 7. We will use this data set to train the model
+    to predict the day of the week when a trash can is likely to be full based
+    on the location, population, and other characteristics of the area. By
+    inputting this data into the model, it will be able to make accurate
+    predictions on the day of the week when other trash cans in the area will be
+    full. This will help optimize waste collection and management efforts and
+    reduce costs.
+  </li>
+  <table class="table table-striped mt-3">
+    <thead>
+      <tr>
+        <th>Can ID</th>
+        <th>Population</th>
+        <th>Commercial</th>
+        <th>Nbr of Houses</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2000</td>
+        <td>yes</td>
+        <td>500</td>
+        <td>7</td>
+        <td>0</td>
+        <td>12</td>
+        <td>1</td>
+        <td>0</td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>5000</td>
+        <td>no</td>
+        <td>800</td>
+        <td>4</td>
+        <td>2</td>
+        <td>0</td>
+        <td>10</td>
+        <td>0</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3000</td>
+        <td>yes</td>
+        <td>600</td>
+        <td>1</td>
+        <td>8</td>
+        <td>0</td>
+        <td>0</td>
+        <td>3</td>
+        <td>7</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="lead mt-3">
+    In this example, we have three trash cans labeled with their respective Can
+    ID, along with their location characteristics such as Population, Commercial
+    presence and Number of Houses in their area. The dataset also includes the
+    number of times each can was full on each day of the week, labeled as Day 1
+    to Day 7. This data set can be used to train an AI model to predict the day
+    of the week when a given can is likely to be full, based on its location and
+    characteristics.
+  </p>
+  <h2 class="mt-3">Final steps</h2>
+  <div class="row">
+    <li class="lead mt-3 col-sm-6">
+      To create the final labeled dataset, we will use the median quartile Q2
+      value to determine if a trash can should be emptied on a particular day.
+      We will take the dataset that we have already collected, which includes
+      information on the population, commercial properties, number of houses,
+      and the days of the week that the trash cans were full. Then we will
+      calculate the median quartile Q2 value for each day of the week. If the
+      level of waste in a trash can is above the Q2 value for a particular day
+      of the week, we will label that day with a 1, indicating that the trash
+      can should be emptied on that day. If the level of waste is below the Q2
+      value, we will label that day with a 0, indicating that the trash can does
+      not need to be emptied. This approach will help us to optimize waste
+      management and reduce unnecessary trash collection.
+    </li>
+    <img
+      class="col-sm-6"
+      src="https://images.nagwa.com/figures/explainers/165149271534/1.svg"
+    />
+  </div>
+  <table class="table table-striped mt-3">
+    <thead>
+      <tr>
+        <th>Can ID</th>
+        <th>Population</th>
+        <th>Commercial</th>
+        <th>Nbr of Houses</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2000</td>
+        <td>10</td>
+        <td>500</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>5000</td>
+        <td>20</td>
+        <td>800</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3000</td>
+        <td>5</td>
+        <td>600</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="mt-5">
+    Example of implementing our model usin random forest classifier
+  </h2>
+  <div class="code-block">
+    <pre><code class="language-python">
+        from sklearn.ensemble import RandomForestClassifier
+        from sklearn.model_selection import train_test_split
+        
+        # Assuming the dataset is already loaded and preprocessed into X and y
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+        
+        # Initialize the random forest classifier with default hyperparameters
+        rf = RandomForestClassifier()
+        
+        # Fit the model on the training data
+        rf.fit(X_train, y_train)
+        
+        # Make predictions on the test data
+        y_pred = rf.predict(X_test)
+        
+        # Evaluate the model performance
+        accuracy = rf.score(X_test, y_test)
+        print("Model accuracy:", accuracy)        
+    </code></pre>
+    <p class="mt-3 lead">
+      In the above code, we first split the dataset into training and test sets
+      using the train_test_split() function from scikit-learn. Then, we
+      initialize a random forest classifier and fit it on the training data
+      using the fit() method. We then use the trained model to predict values
+      for Monday through Sunday columns using the predict() method, and evaluate
+      the model performance by calculating its accuracy on the test data using
+      the score() method.
+    </p>
+  </div>
+</div>
+
+<section class="newspaper mt-5">
+  <h1 class="">Thanks for your attention!</h1>
+</section>
